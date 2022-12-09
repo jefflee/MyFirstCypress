@@ -1,12 +1,11 @@
 /// <reference types="cypress" />
 
-beforeEach(() => {
-    cy.visit('https://www.google.com/')
-})
-
-describe('Google', () => {
+describe('Google', () => {    
+    beforeEach(() => {
+        cy.visit('https://www.google.com/')
+    });
     it('Navigation', () => {
     
-    })
+    });
 })
   
